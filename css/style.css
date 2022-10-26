@@ -8,6 +8,9 @@ body{
     font-size: 14px;
     font-weight: 400;
 }
+html{
+    scroll-behavior: smooth;
+}
 /* Custom css */
 .container-fluid{
     width: 1240px;
@@ -43,6 +46,7 @@ body{
     flex: 0 0 58.31%;
     max-width: 58.31%;
 }
+/* Common tag */
 a{
     text-decoration: none;
 }
@@ -108,6 +112,12 @@ ul{
 .white-bg{
     background: #fff;
 }
+.TitanWhite-bg{
+    background: #f6f5ff;
+}
+.coralRed-bg{
+    background: #ff3d4f;
+}
 /* Color */
 .text-Midnight{
     color: #000a2d;
@@ -119,6 +129,9 @@ ul{
     color: #ff3d4f;
 }
 /* Padding */
+.pt-10{
+    padding-top: 10px;
+}
 .ptb-35{
     padding: 35px 0;
 }
@@ -141,6 +154,9 @@ ul{
 .mb-15{
     margin-bottom: 15px;
 }
+.mb-20{
+    margin-bottom: 20px;
+}
 .mb-30{
     margin-bottom: 30px;
 }
@@ -150,6 +166,10 @@ ul{
 .mb-45{
     margin-bottom: 45px;
 }
+.mb-60{
+    margin-bottom: 60px;
+}
+
 /* Header part start */
 header {
     border: 1px solid rgb(0 0 0 / 7%);
@@ -295,3 +315,39 @@ header {
     padding: 60px 50px;
 }
 /* Service Part End */
+
+/* Skill Part Start */
+.skillImg {
+    padding-right: 70px;
+}
+.skillImg img{
+    border: 12px solid #fff;
+    box-shadow: 0px 16px 32px 0px rgba(167, 178, 219, 0.3);
+    width: 100%;
+}
+.progress {
+    width: 100%;
+    height: 20px;
+}
+.progressBar {
+    width: 74%;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+#percent82{
+    width: 82%;
+}
+#percent65{
+    width: 65%;
+}
+#percent85{
+    width: 85%;
+}
+.progressBar span {
+    text-align: right;
+    padding-right: 10px;
+}
+/* Skill Part End */
