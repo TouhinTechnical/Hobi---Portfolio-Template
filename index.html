@@ -16,7 +16,7 @@
 </head>
 <body>
     <!-- Header Part Start -->
-    <header class="h-105" id="home">
+    <header class="h-105 white-bg zIndex-999">
         <!-- Menu -->
         <div class="container-fluid">
             <div class="row">
@@ -30,11 +30,11 @@
                 <div class="col-7">
                     <nav class="menu ptb-35 d-block mlr-40">
                         <ul>
-                            <li><a href="#home" class="text-Midnight active">Home</a></li>
+                            <li><a href="index.html" class="text-Midnight active">Home</a></li>
                             <li><a href="#about" class="text-Midnight">About</a></li>
                             <li><a href="#service" class="text-Midnight">Services</a></li>
                             <li><a href="#skill" class="text-Midnight">Skills</a></li>
-                            <li><a href="#" class="text-Midnight">Portfolio</a></li>
+                            <li><a href="#portfolio" class="text-Midnight">Portfolio</a></li>
                             <li><a href="#" class="text-Midnight">Team</a></li>
                             <li><a href="#" class="text-Midnight">Blog</a></li>
                             <li><a href="#" class="text-Midnight">Contact</a></li>
@@ -241,6 +241,108 @@
             </div> <!-- Container -->
         </section> <!-- Skill_main -->
         <!-- Skill Part End -->
+
+        <!-- Portfolio Part Start -->
+        <section class="portfolio_main ptb-100" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="portfolioTextContent mb-60 pt-10">
+                            <h5 class="shortTittle text-CoralRed mb-15">Works</h5>
+                            <h1 class="headingTittle text-Midnight">Cool Stuffs</h1>
+                        </div> 
+                    </div> <!-- col 6 -->
+                    <div class="col-6 ptb-35">
+                        <div class="portfolioMenu text-Midnight ptb-35">
+                            <ul>
+                                <li class="p-15" type="button" data-filter="all">all works</li>
+                                <li class="p-15" type="button" data-filter=".ui">ui/ux</li>
+                                <li class="p-15" type="button" data-filter=".web">web design</li>
+                                <li class="p-15" type="button" data-filter=".brand">branding</li>
+                                <li class="p-15" type="button" data-filter=".logo">logo</li>
+                            </ul>
+                        </div>
+                    </div> <!-- col 6 -->
+                </div> <!-- portfolio top row  -->
+                <div class="row">
+                    <div class="portfolioImageGallery menuFilter">
+                        <div class="portfolioImageBox mix web brand">
+                            <img src="./img/Portfolio/portfolio1.jpg" alt="Image1">
+                            <div class="imgOverlay">
+                                <div class="imgDetails">
+                                    <span class="imgCategory text-White">BRANDING</span>
+                                    <h3 class="imgTitle">
+                                        <a href="#" class="text-White">Hamble Triangle</a>
+                                    </h3>
+                                </div>
+                            </div> <!-- imgOverlay -->
+                        </div> <!-- portfolio Image Box -->
+                        <div class="portfolioImageBox mix ui brand logo">
+                            <img src="./img/Portfolio/portfolio2.jpg" alt="Image2">
+                            <div class="imgOverlay">
+                                <div class="imgDetails">
+                                    <span class="imgCategory text-White">BRANDING</span>
+                                    <h3 class="imgTitle">
+                                        <a href="#" class="text-White">Hamble Triangle</a>
+                                    </h3>
+                                </div>
+                            </div> <!-- imgOverlay -->
+                        </div> <!-- portfolio Image Box -->
+                        <div class="portfolioImageBox mix web brand">
+                            <img src="./img/Portfolio/portfolio3.jpg" alt="Image3portfolio3.jpg">
+                            <div class="imgOverlay">
+                                <div class="imgDetails">
+                                    <span class="imgCategory text-White">BRANDING</span>
+                                    <h3 class="imgTitle">
+                                        <a href="#" class="text-White">Hamble Triangle</a>
+                                    </h3>
+                                </div>
+                            </div> <!-- imgOverlay -->
+                        </div> <!-- portfolio Image Box -->
+                        <div class="portfolioImageBox mix ui web">
+                            <img src="./img/Portfolio/portfolio6.jpg" alt="Image6">
+                            <div class="imgOverlay">
+                                <div class="imgDetails">
+                                    <span class="imgCategory text-White">BRANDING</span>
+                                    <h3 class="imgTitle">
+                                        <a href="#" class="text-White">Hamble Triangle</a>
+                                    </h3>
+                                </div>
+                            </div> <!-- imgOverlay -->
+                        </div> <!-- portfolio Image Box -->
+                        <div class="portfolioImageBox mix ui logo">
+                            <img src="./img/Portfolio/portfolio5.jpg" alt="Image5">
+                            <div class="imgOverlay">
+                                <div class="imgDetails">
+                                    <span class="imgCategory text-White">BRANDING</span>
+                                    <h3 class="imgTitle">
+                                        <a href="#" class="text-White">Hamble Triangle</a>
+                                    </h3>
+                                </div>
+                            </div> <!-- imgOverlay -->
+                        </div> <!-- portfolio Image Box -->
+                        <div class="portfolioImageBox mix ui logo">
+                            <img src="./img/Portfolio/portfolio4.jpg" alt="Image4">
+                            <div class="imgOverlay">
+                                <div class="imgDetails">
+                                    <span class="imgCategory text-White">BRANDING</span>
+                                    <h3 class="imgTitle">
+                                        <a href="#" class="text-White">Hamble Triangle</a>
+                                    </h3>
+                                </div>
+                            </div> <!-- imgOverlay -->
+                        </div> <!-- portfolio Image Box --> 
+                    </div> <!-- portfolio Image Gallery -->
+                </div> <!-- portfolio bottom row -->
+            </div> <!-- Container -->
+        </section> <!-- portfolio Main -->
+        <!-- Portfolio Part End -->
     </main>
+
+
+    <!-- js Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
