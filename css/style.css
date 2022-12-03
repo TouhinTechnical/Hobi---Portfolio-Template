@@ -157,6 +157,9 @@ ul{
     padding: 200px 0;
 }
 /* Margin */
+.mt-90{
+    margin-top: 90px;
+}
 .mlr-15{
     margin: 0 40px;
 }
@@ -481,3 +484,30 @@ header {
     border-bottom: 2px solid #ff3d4f;
 }
 /* Portfolio Part End */
+
+/* Quote Part Start */
+.quoteContent {
+    background: linear-gradient(rgba(0, 10, 45, .9), rgba(0, 10, 45, .9)), url(../img/cta-bg.jpg) no-repeat center/cover;
+    padding: 75px 100px 60px 100px;
+}
+.qutoeAlign{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.quoteLeft_textContent .headingTittle {
+    font-size: 60px;
+    line-height: 1.3;
+    margin-bottom: 0;
+}
+.quoteRight_textContent .btnGive {
+    background: none;
+    border-color: #e5e9ff;
+    color: #6e7797;
+}
+.quoteRight_textContent .btnGive:hover {
+    background: #ff3d4f;
+    color: #fff;
+    border-color: #ff3d4f;
+}
+/* Quote Part End */
