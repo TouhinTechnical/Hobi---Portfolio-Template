@@ -117,6 +117,12 @@ ul{
     font-family: 'Rufina', serif;
     font-weight: 700;
 }
+.divTextCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 /* Background */
 .gray-bg {
     background: #f6f5ff;
@@ -129,6 +135,9 @@ ul{
 }
 .coralRed-bg{
     background: #ff3d4f;
+}
+.Chablis-bg{
+    background: #fff2f3;
 }
 /* Color */
 .text-Midnight{
@@ -144,8 +153,17 @@ ul{
 .p-15{
     padding: 15px;
 }
+.p-40{
+    padding: 40px;
+}
 .pt-10{
     padding-top: 10px;
+}
+.pt-280{
+    padding-top: 280px;
+}
+.pb-120{
+    padding-bottom: 120px;
 }
 .ptb-35{
     padding: 35px 0;
@@ -157,8 +175,14 @@ ul{
     padding: 200px 0;
 }
 /* Margin */
-.mt-90{
-    margin-top: 90px;
+.mt-10{
+    margin-top: 10px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-105{
+    margin-top: 105px;
 }
 .mlr-15{
     margin: 0 40px;
@@ -169,11 +193,20 @@ ul{
 .mr-20{
     margin-right: 20px;
 }
+.mr-30{
+    margin-right: 30px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
 .mb-15{
     margin-bottom: 15px;
 }
 .mb-20{
     margin-bottom: 20px;
+}
+.mb-25{
+    margin-bottom: 25px;
 }
 .mb-30{
     margin-bottom: 30px;
@@ -187,12 +220,16 @@ ul{
 .mb-60{
     margin-bottom: 60px;
 }
+.mb-80{
+    margin-bottom: 80px;
+}
 
 /* Header part start */
 header {
     border: 1px solid rgb(0 0 0 / 7%);
     box-shadow: 0 0 60px 0 rgb(0 0 0 / 7%);
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
 }
 .menu ul {
@@ -489,6 +526,7 @@ header {
 .quoteContent {
     background: linear-gradient(rgba(0, 10, 45, .9), rgba(0, 10, 45, .9)), url(../img/cta-bg.jpg) no-repeat center/cover;
     padding: 75px 100px 60px 100px;
+    margin-bottom: -165px;
 }
 .qutoeAlign{
     display: flex;
@@ -511,3 +549,29 @@ header {
     border-color: #ff3d4f;
 }
 /* Quote Part End */
+
+/* Works part Start */
+.works_main .row{
+    flex-wrap: wrap;
+}
+.works_main {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.boxHeadingTitleContent {
+    display: flex;
+}
+.boxIcon i {
+    font-size: 24px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+.boxTextHeading {
+    font-size: 26px;
+    font-family: 'Rufina', serif;
+    line-height: 24px;
+}
+/* Works part End */
